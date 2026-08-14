@@ -1,3 +1,9 @@
+"""
+"from database import": vai importar as funçoes da outra pasta
+"while True:": esse é o laço de repetiçao que so para quando encontra o "break"
+"input():sempre retorna texto entao eu uso o "int()" para converter a idade e o ID em numero
+"if __name__ == "__main__":":Esse e utilizado por padrao, faz com que so rode quando o arquivo é executado diretamente.
+"""
 from database import criar_tabela, cadastrar, listar, buscar_por_nome, atualizar, excluir
 
 def exibir_menu():
